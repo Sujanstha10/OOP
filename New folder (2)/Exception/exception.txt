@@ -1,0 +1,12 @@
+- an abnormal condition arises in the sequence of the code,runtime.
+- occurs due to errors in codes.
+- are recoverable by the exception handling concepts.
+
+#ExceptionHandeling
+- try
+- catch
+- throw{
+    ~ used to throw the exception from function.
+}
+
+

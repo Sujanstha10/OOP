@@ -1,0 +1,17 @@
+creating thread using Runnable interface.
+
+step 1: creating a class implementing Runnable interface
+                class myThread implements Runnable{
+
+                }
+step 2: override run()method and add business logic to it.
+                class myThread implements Runnable{
+                    public void run(){
+
+                    }
+                }
+step 3: create a instance of Thread class and pass the Runnable object to its constructor.
+                myThread obj = new myThread();
+                Thread t = new Thread(obj);
+step 4: use of start() method.
+                t.start();
